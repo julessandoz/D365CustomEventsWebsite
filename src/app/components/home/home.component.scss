@@ -30,6 +30,10 @@ input {
 .card {
     cursor: pointer;
 
+    .card-img-top {
+        background-color: $light;
+    }
+
     &.external h5.card-title::after {
         content: "\f08e";
         /* Unicode for fa-external-link in FontAwesome 4 */
