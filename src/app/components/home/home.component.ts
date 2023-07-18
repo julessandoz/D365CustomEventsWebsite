@@ -57,6 +57,7 @@ export class HomeComponent implements OnInit {
                 this.filteredEvents = events.filter((event: Event) => {
                     return !event.customFields.sili4gde_evenementprive;
                 });
+                this.orderEvents('date-asc')
                 this.isLoading = false;
             },
             (error: LocalizableError) => this.handleErrorResponse(error)
