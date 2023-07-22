@@ -131,9 +131,9 @@ export const environment = {
      *  - websiteLanguageLcid : the default language of the website that will be used only if forceSingleLanguage and useBrowserLanguage are set to false
      */
     languageSettings : {
-        useBrowserLanguage: true,
-        websiteLanguageLcid : "en-us", // Provide a language LCID string. Example usage : "en-us"
-        showLanguageDropdown:  true, 
-        forceSingleLanguage: false
+        useBrowserLanguage: false,
+        websiteLanguageLcid : "fr-FR", // Provide a language LCID string. Example usage : "en-us"
+        showLanguageDropdown:  false, 
+        forceSingleLanguage: true
     }
 };
