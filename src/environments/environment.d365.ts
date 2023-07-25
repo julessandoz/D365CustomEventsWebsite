@@ -132,7 +132,7 @@ export const environment = {
      */
     languageSettings : {
         useBrowserLanguage: false,
-        websiteLanguageLcid : "fr-FR", // Provide a language LCID string. Example usage : "en-us"
+        websiteLanguageLcid : "fr", // Provide a language LCID string. Example usage : "en-us"
         showLanguageDropdown:  false, 
         forceSingleLanguage: true
     }
