@@ -62,8 +62,8 @@ nav {
     position: relative;
     top: 1px;
     float: left;
-    width: 200px;
-    height: auto;
+    max-width: 200px;
+    max-height: 70px;
     margin: 0 1px;
 }
 
